@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
-import 'package:responsive_dashboard/utils/app_styles.dart';
-
 import '../models/drawer_item_mode.dart';
 import 'active_inactive_item.dart';
 
