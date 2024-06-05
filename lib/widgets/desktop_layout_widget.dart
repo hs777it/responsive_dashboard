@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:responsive_dashboard/widgets/custom_drawer.dart';
+import 'package:responsive_dashboard/widgets/quick_invoice.dart';
 
 import 'all_expenses.dart';
 
@@ -18,7 +19,9 @@ class DesktopLayout extends StatelessWidget {
             flex: 2,
             child: Column(
               children: [
-                Expanded(child: AllExpenses()),
+                AllExpenses(),
+                SizedBox(height: 24),
+                QuickInvoice(),
               ],
             )),
       ],
