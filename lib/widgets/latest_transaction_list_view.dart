@@ -23,7 +23,8 @@ class LatestTransactionListView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 350,
+      // height: MediaQuery.sizeOf(context).height * .09,
+      height: 80, // calculate childs
       child: ListView.builder(
         scrollDirection: Axis.horizontal,
         itemCount: items.length,
